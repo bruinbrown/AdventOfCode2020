@@ -19,5 +19,7 @@ let main argv =
     | [| "Day6"; "Part2"; filePath |] -> Day6.runPart2 filePath
     | [| "Day7"; "Part1"; filePath |] -> Day7.run filePath
     | [| "Day7"; "Part2"; filePath |] -> Day7.runPart2 filePath
+    | [| "Day8"; "Part1"; filePath |] -> Day8.run filePath
+    | [| "Day8"; "Part2"; filePath |] -> Day8.runPart2 filePath
     | _ -> printfn "No match found"
     0 // return an integer exit code
